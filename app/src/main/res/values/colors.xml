@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="medium_slate_blue">#806EE3</color>
+    <color name="shimmer">#DDDDDD</color>
+
+    <color name="midnight_express">#0D0F36</color>
+    <color name="Resolution_blue">#294380</color>
+    <color name="downy">#69D2CD</color>
+    <color name="aero_blue">#B9F1D6</color>
+</resources>

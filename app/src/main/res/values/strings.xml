@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Portfólio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_bottom_bar_home">Início</string>
+    <string name="menu_bottom_bar_skills">Habilidades</string>
+    <string name="menu_bottom_bar_works">Trabalhos</string>
+    <string name="menu_bottom_bar_contact">Contato</string>
+
+    <string name="presentation_name">Olá, Meu nome é Paulo Victor</string>
+    <string name="about">Eu sou um desenvolvedor mobile Kotlin.</string>
+    <string name="about_desc">Sou um Desenvolvedor mobile, trabalho como freelancer há mais de 1 Ano. Minha especialidade inclui: Kotlin, Firebase, Retrofit e Git / GitHub.</string>
+    <string name="contact">Entre em contato</string>
+    <string name="contact_text">Deseja saber mais alguma coisa? Preencha os campos abaixo que em breve retornarei o seu contato</string>
+    <string name="cd_linkedin">Rede social linkedin</string>
+    <string name="cd_github">Rede social Github</string>
+    <string name="cd_instagram">Rede social Instagram</string>
+    <string name="send">Enviar</string>
+    <string name="powered_by_paulo_victor">© 2023 Powered by: Paulo Victor.</string>
+    <string name="or">Ou</string>
+    <string name="details_5">através das minhas redes sociais.</string>
+    <string name="name">Nome</string>
+    <string name="technology">Tecnologia</string>
+    <string name="project">Projetos</string>
+    <string name="email">Email</string>
+    <string name="subject">Assunto</string>
+    <string name="message">Mensagem</string>
+    <string name="contact_me">Entre em Contato</string>
+    <string name="download_cv">Baixar CV</string>
+    <string name="profile_picture">Imagem de perfil</string>
+    <string name="technology_logo">Imagem da logo da tecnologia</string>
+    <string name="technology_name">Nome da tecnologia</string>
+    <string name="access_application">Aplicativo</string>
+    <string name="access_repository">Repositório</string>
+    <string name="project_image">Imagem do projeto</string>
+</resources>

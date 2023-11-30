@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "148548719314",
+    "firebase_url": "https://portfolio-d94ce-default-rtdb.firebaseio.com",
+    "project_id": "portfolio-d94ce",
+    "storage_bucket": "portfolio-d94ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148548719314:android:ca39bafa07ee8e261cd30b",
+        "android_client_info": {
+          "package_name": "com.pvbcsoft.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF2EFJxuQvS9XoqWfycKK-QGMIjb3SlxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.pvbcsoft.portfolio.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menu_skills"
+        android:name="com.pvbcsoft.portfolio.ui.SkillsFragment"
+        android:label="fragment_skills"
+        tools:layout="@layout/fragment_skills" />
+    <fragment
+        android:id="@+id/menu_works"
+        android:name="com.pvbcsoft.portfolio.ui.WorksFragment"
+        android:label="fragment_works"
+        tools:layout="@layout/fragment_works" />
+    <fragment
+        android:id="@+id/menu_contact"
+        android:name="com.pvbcsoft.portfolio.ui.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

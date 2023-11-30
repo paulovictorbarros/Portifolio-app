@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:text="@string/contact"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_contact_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:text="@string/contact_text"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_Contact" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_layout_subject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:hint="@string/subject"
+            app:endIconMode="clear_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_contact_desc"
+            app:startIconDrawable="@drawable/mail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ti_contact_subject"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_layout_message"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:hint="@string/message"
+            app:endIconMode="clear_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ti_layout_subject"
+            app:startIconDrawable="@drawable/folder_documents">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ti_contact_message"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_contact_send"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/medium_slate_blue"
+            android:text="@string/send"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ti_layout_message" />
+
+        <TextView
+            android:id="@+id/ti_or"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:text="@string/or"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_contact_send" />
+
+        <TextView
+            android:id="@+id/ti_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:text="@string/details_5"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ti_or" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ti_option">
+
+            <ImageView
+                android:id="@+id/iv_linkedin"
+                android:layout_width="62sp"
+                android:layout_height="62sp"
+                android:layout_marginEnd="22sp"
+                android:contentDescription="@string/cd_linkedin"
+                android:src="@drawable/linkedin" />
+
+            <ImageView
+                android:id="@+id/iv_github"
+                android:layout_width="62sp"
+                android:layout_height="62sp"
+                android:contentDescription="@string/cd_github"
+                android:src="@drawable/github" />
+
+            <ImageView
+                android:id="@+id/iv_instagram"
+                android:layout_width="62sp"
+                android:layout_height="62sp"
+                android:layout_marginStart="22sp"
+                android:contentDescription="@string/cd_instagram"
+                android:src="@drawable/instagram" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

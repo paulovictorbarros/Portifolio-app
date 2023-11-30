@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Portfólio" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/medium_slate_blue</item>
+    </style>
+
+    <style name="Theme.Portfólio" parent="Base.Theme.Portfólio" />
+
+    <style name="Theme.AppCompat.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/medium_slate_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_remove</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Portfólio</item>
+    </style>
+</resources>
